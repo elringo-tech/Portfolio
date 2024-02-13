@@ -1,0 +1,293 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.contenedor{
+	padding: 60px 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.titulo{
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/*HEADER*/
+
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.container {
+    text-align: right;
+    padding: 2%;
+}
+
+button {
+    background-color: #207cd3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+	border-color:#000;
+	text-align: right;
+}
+
+.dark-mode {
+    background-color: #00305d;
+    color: #fff;
+}
+
+header{
+	width: 100%;
+	position: relative;
+	display: flexbox;
+	background: -webkit-linear-gradient(left, rgba(81, 99, 149, .5), rgba(255, 255, 255, 0.5));
+	background-size: cover;
+    background-attachment: fixed;
+	position: relative;
+}
+
+.barra-navegacion{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.logo{
+	width: 10%;
+	height: auto;
+	padding-top: 1%;
+}
+
+nav{
+	text-align: right;
+	height: auto;
+	padding-top: 5%;
+}
+
+nav a{
+	font-weight: 800;
+	text-decoration: none;
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+header .textos-header{
+	display: flex;
+	height: 25%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.textos-header a{
+	font-size: 30px;
+	font-weight: 300;
+	text-align: center;
+}
+
+iframe{
+	display: flex;
+	height: 30%;
+	width: 30%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	margin-left: 35%;
+	margin-right: 25%;
+}
+
+/*MAIN*/
+
+.comentarios{
+	padding-left:15%;
+    font-size: larger;
+	text-align: justify;
+}
+
+.crypto-nav-cont{
+	text-align: justify;
+	display: flex;
+	flex-wrap: wrap;
+	grid-template-columns: repeat(3,3fr);
+	justify-content: stretch;
+	margin: 2% 15% 2% 15%;
+
+}
+
+.crypto-nav{
+	text-align: match-parent;
+	padding: 1%;
+	border-radius: 8%;
+}
+
+.icon-crypto-nav{
+    width:30px; 
+	text-align: center;
+}
+.contenedor-cartas{
+	margin-left: 15%;
+	margin-top: 1%;
+}
+
+.comentarios2{
+	font-size: larger;
+}
+
+
+.desplegables{
+	background-color:#207cd3;
+	color:#ffffff;
+	font-size: large;
+	
+}
+
+.carta{
+	background-color: #d0e8ff;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 1%;
+}
+
+/*FOOTER*/
+
+footer{
+ background-color: #207cd3;
+	padding: 5% 0 5% 0;
+
+	margin: auto;
+	overflow: hidden;
+}
+
+.contenedor-footer{
+	display: flex;
+	width: 90%;
+	justify-content: space-evenly;
+	margin: auto;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #8F7CEC;
+}
+
+.content-footer{
+	text-align: center;
+	margin: 1% 10% 1% 10%;
+}
+
+.content-footer h4{
+	color: black;
+	border-bottom: 3px solid #af20d3;
+}
+
+.content-footer p{
+	color: black;
+}
+
+.titulo-final{
+	color: black;
+	text-align: center;
+	font-size: 24px;
+}
+
+/* Pagina Portafolio*/
+
+h1{
+	color: #af20d3;
+	text-align: center;
+	
+}
+
+
+/* Media Query para pantallas más pequeñas (ej. tablets) */
+@media only screen and (max-width: 768px) {
+    .logo {
+        width: 20%; 
+    }
+
+    .barra-navegacion {
+        justify-content: center; 
+    }
+
+    nav a {
+        margin-right: 5px; 
+        font-size: 16px; 
+    }
+
+    header .textos-header a {
+        font-size: 24px; 
+    }
+
+    .comentarios {
+        padding-left: 5%; 
+    }
+
+    .crypto-nav-cont {
+        margin: 2% 5% 2% 5%; 
+    }
+
+    .crypto-nav {
+        text-align: center; 
+    }
+
+    .icon-crypto-nav {
+        width: 20px; 
+    }
+
+    .contenedor-cartas {
+        margin-left: 5%; 
+    }
+
+    .comentarios2 {
+        font-size: medium; 
+    }
+
+    .carta {
+        margin: 1% 5% 5% 5%; 
+    }
+}
+
+/* Media Query para pantallas aún más pequeñas (ej. smartphones) */
+@media only screen and (max-width: 480px) {
+    .logo {
+        width: 30%; 
+    }
+
+    nav a {
+        margin-right: 0; 
+        font-size: 14px; 
+    }
+
+    header .textos-header a {
+        font-size: 20px; 
+    }
+
+    .comentarios {
+        padding-left: 2%; 
+    }
+
+    .crypto-nav-cont {
+        margin: 2% 2% 2% 2%; 
+    }
+
+    .contenedor-cartas {
+        margin-left: 2%; 
+    }
+
+    .comentarios2 {
+        font-size: small; 
+    }
+
+    .carta {
+        margin: 1% 2% 5% 2%; 
+    }
+}

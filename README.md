@@ -1,3 +1,5 @@
+NOTE: still working on update my portfolio. There are pending projects that will be added to this section soon. 
+Thanks a lot for your visit! 
 # Data Science and Machine Learning 
 Repository containing portfolio of data science projects completed for academic, self learning, and professional purposes. Presented in the form of Jupyter Notebooks.
 
